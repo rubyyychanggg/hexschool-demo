@@ -52,7 +52,7 @@ table {
 }
 .header-one{
     display: flex;
-    background-color: lightgray;
+    background-color:#F0F0F0;
     align-content: flex-end;
     flex-direction: row-reverse;
     padding: 5px
@@ -69,8 +69,17 @@ table {
 }
 .btn{
     display: flex;
-    background-color: aquamarine;
-    color: aquamarine;
+    width: 300px;
+    text-align: center;
+    justify-content: end;
+    align-items: center;
+}
+.btn a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color:#00cc99;
+    font-family: "Helvetica Neue", Helvetica, Arial, STHeitiTC-light, STHeiti, "Microsoft JhengHei", 微軟正黑體, sans-serif;
 }
 .banner{
     width: 100%;
@@ -95,7 +104,9 @@ table {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    color: ;
     font-weight: bold;
     font-family: "Helvetica Neue", Helvetica, Arial, STHeitiTC-light, STHeiti, "Microsoft JhengHei", 微軟正黑體, sans-serif;
+}
+.text{
+    color: deeppink;
 }
